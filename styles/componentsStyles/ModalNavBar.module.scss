@@ -1,0 +1,73 @@
+@import '../variables';
+
+.NavDisplay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(249, 250, 251, 0.1);
+    backdrop-filter: blur(4px);
+    z-index: 5000;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    .NavBar {
+        width: 100%;
+        max-width: 300px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: $Bg-dark-df;
+        .Top {
+            height: 60px;
+            width: 100%;
+            position: relative;
+            padding: 16px;
+            .logo {
+                color: $Text-900;
+                text-decoration: none;
+            }
+            .CloseIcon {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                right: 16px;
+                cursor: pointer;
+                padding: 5px;
+            }
+        }
+        .NavItemBox {
+            width: 100%;
+            height: auto;
+            .NavItem {
+                border-bottom: $Bg-dark-100 1px solid;
+                border-top: $Bg-dark-100 1px solid;
+                width: 100%;
+                height: auto;
+                display: flex;
+                padding: 8px 16px;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+                a {
+                    color: $Text-600;
+                    padding: 8px 0;
+                    display: block;
+                    width: 100%;
+                }
+            }
+        }
+        .IconBox {
+            width: 100%;
+            height: auto;
+            display: flex;
+            padding: 16px;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+        }
+    }
+}

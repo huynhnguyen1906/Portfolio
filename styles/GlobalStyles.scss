@@ -2,9 +2,9 @@
 @import 'variables';
 
 :where(a, button) {
-    text-decoration: none;
+    text-decoration: none !important;
     color: #000;
-    cursor: pointer;
+    cursor: pointer !important;
 }
 :where(img, svg) {
     max-width: 100%;
