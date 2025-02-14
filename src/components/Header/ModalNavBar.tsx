@@ -1,7 +1,7 @@
 import Style from '@styles/componentsStyles/ModalNavBar.module.scss';
 import Link from 'next/link';
 import { IoCloseOutline } from 'react-icons/io5';
-import GithubWhite from '../icons/githubWhite';
+import GithubWhite from '../icons/GithubWhite';
 import FacebookWhite from '../icons/FacebookWhite';
 import InstagramWhite from '../icons/InstagramWhite';
 

@@ -5,7 +5,7 @@ import Style from '@styles/componentsStyles/Header.module.scss';
 import '@styles/componentsStyles/CustomNavBar.scss';
 import ModalNavBar from './ModalNavBar';
 import { useState } from 'react';
-import GithubWhite from '../icons/githubWhite';
+import GithubWhite from '../icons/GithubWhite';
 
 export default function Header() {
     const [show, setShow] = useState(false);

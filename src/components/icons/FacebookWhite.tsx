@@ -11,7 +11,7 @@ export default function FacebookWhite() {
             </g>
             <defs>
                 <clipPath id="clip0_70_845">
-                    <rect width="35" height="35" fill="white" />
+                    <rect width="35" height="35" fill="#f9fafb" />
                 </clipPath>
             </defs>
         </svg>
