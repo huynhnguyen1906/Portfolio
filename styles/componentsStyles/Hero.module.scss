@@ -56,13 +56,12 @@
 .ImageBlock {
     position: relative;
     height: 360px;
-    width: 280px;
+    width: 320px;
     .Image {
         width: 280px;
         height: 320px;
         border: 8px solid $Bg-dark-df;
         position: relative;
-        right: 40px;
         z-index: 2;
         img {
             width: 100%;

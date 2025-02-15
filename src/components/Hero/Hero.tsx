@@ -16,7 +16,8 @@ export default function Hero() {
                     <div className={Style.Text}>
                         <h1>HELLO I’M HUYNH</h1>
                         <p>
-                            こんにちは、私はフインと申します。現在、ECCコンピューター専門学校のWebデザインコース2年生です。コンピューターに興味があり、特にWeb開発に関心を持っています。将来はフルスタックエンジニアになることを目指しています。
+                            こんにちは、グエン ドゥック フィン（Nguyễn Đức
+                            Huỳnh）と申します。ECCコンピュータ専門学校の2年次を修了しました。コンピューターに興味があり、特にWeb開発に関心を持っています。将来はフルスタックエンジニアとして活躍したいと考えています。
                         </p>
                     </div>
                     <div className={Style.Activity}>
