@@ -1,6 +1,6 @@
 import Style from '@styles/componentsStyles/Skill.module.scss';
 import ESlint from '../icons/skillIcon/ESlint';
-import JavaScript from '../icons/skillIcon/Javascript';
+import JavaScript from '../icons/skillIcon/JavaScript';
 import TypeScript from '../icons/skillIcon/TypeScript';
 
 export default function Skill() {
