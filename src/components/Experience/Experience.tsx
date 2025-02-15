@@ -5,7 +5,7 @@ export default function Experience() {
         <div className={Style.ExperienceContainer}>
             <div className={Style.label}>
                 <p className={Style.title}>経験</p>
-                <p>こちらは、私の最近の経験：</p>
+                <p>こちらは、私の最近の経験</p>
             </div>
             <div className={Style.Content}>
                 <div className={Style.experienceItem}>

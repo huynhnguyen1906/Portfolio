@@ -17,7 +17,7 @@ export default function Skill() {
         <div className={Style.SkillContainer}>
             <div className={Style.label}>
                 <p className={Style.title}>スキル</p>
-                <p>私のよく使うスキル、ツール、そして技術：</p>
+                <p>私のよく使うスキル、ツール、そして技術</p>
             </div>
             <div className={Style.Content}>
                 <div className={Style.skillItem}>

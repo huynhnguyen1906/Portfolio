@@ -83,6 +83,11 @@
         }
     }
 }
+@media screen and (max-width: 1000px) {
+    .experienceItem {
+        max-width: 780px;
+    }
+}
 @media screen and (max-width: 820px) {
     .ExperienceContainer {
         padding: 64px 0;
