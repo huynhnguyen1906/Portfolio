@@ -6,6 +6,7 @@ import FacebookWhite from '../icons/FacebookWhite';
 import InstagramWhite from '../icons/InstagramWhite';
 import Link from 'next/link';
 import Image from 'next/image';
+import Graduation from '../icons/Graduation';
 
 export default function Hero() {
     return (
@@ -19,6 +20,12 @@ export default function Hero() {
                         </p>
                     </div>
                     <div className={Style.Activity}>
+                        <div className={Style.Item}>
+                            <div>
+                                <Graduation />
+                            </div>
+                            <p>2026年3月卒業見込み</p>
+                        </div>
                         <div className={Style.Item}>
                             <div>
                                 <EarthWhite />
