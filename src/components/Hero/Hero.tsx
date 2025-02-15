@@ -54,7 +54,7 @@ export default function Hero() {
                 </div>
                 <div className={Style.ImageBlock}>
                     <div className={Style.Image}>
-                        <Image src="/images/heroImage.webp" alt="hero-image" width={320} height={320} />
+                        <Image src="/images/HeroImage.webp" alt="hero-image" width={320} height={320} />
                     </div>
                     <div className={Style.Shadow}></div>
                 </div>
