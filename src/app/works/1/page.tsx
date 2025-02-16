@@ -64,9 +64,9 @@ export default function WorkDetailPage() {
                                         <p>PW: ecccomp1</p>
                                     </div>
                                 </div>
-                                <div className={Style.displayNote}>
+                                {/* <div className={Style.displayNote}>
                                     ※レスポンシブ未対応のため、 パソコンでの閲覧を推奨します。
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <ThumbnailSlider />
