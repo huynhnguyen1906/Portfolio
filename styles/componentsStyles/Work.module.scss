@@ -161,16 +161,28 @@
             }
         }
     }
+    &:nth-child(2) {
+        .imageBlock {
+            order: 2;
+            border-radius: 0rem 1.2rem 1.2rem 0rem;
+        }
+        .workDetail {
+            order: 1;
+            border-radius: 1.2rem 0rem 0rem 1.2rem;
+        }
+    }
 }
 @media screen and (max-width: 1000px) {
     .workItem {
         flex-direction: column;
         .imageBlock {
+            order: 1 !important;
             width: 100%;
             padding: 48px;
             border-radius: 1.2rem 1.2rem 0rem 0rem;
         }
         .workDetail {
+            order: 2 !important;
             width: 100%;
             border-radius: 0rem 0rem 1.2rem 1.2rem;
             .action {
