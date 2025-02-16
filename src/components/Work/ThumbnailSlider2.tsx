@@ -46,22 +46,22 @@ export default function ThumbnailSlider() {
                 <div className="splide__track">
                     <ul className="splide__list mainSlider">
                         <li className="splide__slide">
-                            <Image src={'/images/tabinavi/visual.webp'} alt="aaa" width={1000} height={1000} priority />
+                            <Image src={'/images/rekiteku/visual.webp'} alt="aaa" width={1000} height={1000} priority />
                         </li>
                         <li className="splide__slide">
-                            <Image src={'/images/tabinavi/1.webp'} alt="aaa" width={1000} height={1000} priority />
+                            <Image src={'/images/rekiteku/1.webp'} alt="aaa" width={1000} height={1000} priority />
                         </li>
                         <li className="splide__slide">
-                            <Image src={'/images/tabinavi/2.webp'} alt="aaa" width={1000} height={1000} priority />
+                            <Image src={'/images/rekiteku/2.webp'} alt="aaa" width={1000} height={1000} priority />
                         </li>
                         <li className="splide__slide">
-                            <Image src={'/images/tabinavi/4.webp'} alt="aaa" width={1000} height={1000} priority />
+                            <Image src={'/images/rekiteku/4.webp'} alt="aaa" width={1000} height={1000} priority />
                         </li>
                         <li className="splide__slide">
-                            <Image src={'/images/tabinavi/5.webp'} alt="aaa" width={1000} height={1000} priority />
+                            <Image src={'/images/rekiteku/3.webp'} alt="aaa" width={1000} height={1000} priority />
                         </li>
                         <li className="splide__slide">
-                            <Image src={'/images/tabinavi/6.webp'} alt="aaa" width={1000} height={1000} priority />
+                            <Image src={'/images/rekiteku/6.webp'} alt="aaa" width={1000} height={1000} priority />
                         </li>
                     </ul>
                 </div>
@@ -71,22 +71,22 @@ export default function ThumbnailSlider() {
                 <div className="splide__track">
                     <ul className="splide__list thumbnail">
                         <li className="splide__slide">
-                            <Image src={'/images/tabinavi/visual.webp'} alt="aaa" width={1000} height={1000} priority />
+                            <Image src={'/images/rekiteku/visual.webp'} alt="aaa" width={1000} height={1000} priority />
                         </li>
                         <li className="splide__slide">
-                            <Image src={'/images/tabinavi/1.webp'} alt="aaa" width={1000} height={1000} priority />
+                            <Image src={'/images/rekiteku/1.webp'} alt="aaa" width={1000} height={1000} priority />
                         </li>
                         <li className="splide__slide">
-                            <Image src={'/images/tabinavi/2.webp'} alt="aaa" width={1000} height={1000} priority />
+                            <Image src={'/images/rekiteku/2.webp'} alt="aaa" width={1000} height={1000} priority />
                         </li>
                         <li className="splide__slide">
-                            <Image src={'/images/tabinavi/4.webp'} alt="aaa" width={1000} height={1000} priority />
+                            <Image src={'/images/rekiteku/4.webp'} alt="aaa" width={1000} height={1000} priority />
                         </li>
                         <li className="splide__slide">
-                            <Image src={'/images/tabinavi/5.webp'} alt="aaa" width={1000} height={1000} priority />
+                            <Image src={'/images/rekiteku/3.webp'} alt="aaa" width={1000} height={1000} priority />
                         </li>
                         <li className="splide__slide">
-                            <Image src={'/images/tabinavi/6.webp'} alt="aaa" width={1000} height={1000} priority />
+                            <Image src={'/images/rekiteku/6.webp'} alt="aaa" width={1000} height={1000} priority />
                         </li>
                     </ul>
                 </div>
