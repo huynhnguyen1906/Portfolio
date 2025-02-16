@@ -1,0 +1,71 @@
+@import '../variables';
+
+.ContactContainer {
+    background-color: $Bg-dark-50;
+    padding: 96px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 48px;
+    .label {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        p {
+            text-align: center;
+            padding: 0 16px;
+        }
+        .title {
+            font-size: 14px;
+            color: $Text-600;
+            padding: 4px 20px;
+            background-color: $Bg-dark-200;
+            border-radius: 12px;
+            display: inline-block;
+        }
+    }
+    .Content {
+        width: 100%;
+        max-width: 1200px;
+        padding: 0 32px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 16px;
+    }
+}
+.mail,
+.phoneNumber {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    p {
+        font-size: 36px;
+        color: $Text-900;
+    }
+}
+@media screen and (max-width: 820px) {
+    .ContactContainer {
+        padding: 64px 0;
+        gap: 24px;
+        .Content {
+            padding: 0 16px;
+            gap: 24px;
+        }
+    }
+    .mail,
+    .phoneNumber {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        p {
+            font-size: 16px;
+            color: $Text-900;
+        }
+    }
+}
