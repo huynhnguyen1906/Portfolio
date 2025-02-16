@@ -41,13 +41,13 @@ export default function Hero() {
                         </div>
                     </div>
                     <div className={Style.Action}>
-                        <Link href="#">
+                        <Link href="https://github.com/huynhnguyen1906" target="_blank" rel="noopener noreferrer">
                             <GithubWhite />
                         </Link>
-                        <Link href="#">
+                        <Link href="https://www.facebook.com/Huynh.me123/" target="_blank" rel="noopener noreferrer">
                             <FacebookWhite />
                         </Link>
-                        <Link href="#">
+                        <Link href="https://www.instagram.com/n.d_.huynh/" target="_blank" rel="noopener noreferrer">
                             <InstagramWhite />
                         </Link>
                     </div>

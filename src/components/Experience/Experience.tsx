@@ -2,7 +2,7 @@ import Style from '@styles/componentsStyles/Experience.module.scss';
 
 export default function Experience() {
     return (
-        <div className={Style.ExperienceContainer}>
+        <div className={Style.ExperienceContainer} id="experience">
             <div className={Style.label}>
                 <p className={Style.title}>経験</p>
                 <p>こちらは、私の最近の経験</p>

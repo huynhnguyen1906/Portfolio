@@ -14,7 +14,7 @@ import Git from '../icons/skillIcon/Git';
 
 export default function Skill() {
     return (
-        <div className={Style.SkillContainer}>
+        <div className={Style.SkillContainer} id="skill">
             <div className={Style.label}>
                 <p className={Style.title}>スキル</p>
                 <p>私のよく使うスキル、ツール、そして技術</p>

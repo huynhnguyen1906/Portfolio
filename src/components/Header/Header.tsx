@@ -21,12 +21,12 @@ export default function Header() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleShow} />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="d-flex justify-content-end">
-                        <Nav.Link href="#">私について</Nav.Link>
-                        <Nav.Link href="#">スキル</Nav.Link>
-                        <Nav.Link href="#">経験</Nav.Link>
-                        <Nav.Link href="#">作品</Nav.Link>
-                        <Nav.Link href="#">コンタクト</Nav.Link>
-                        <Nav.Link href="#">
+                        <Nav.Link href="/#about">私について</Nav.Link>
+                        <Nav.Link href="/#skill">スキル</Nav.Link>
+                        <Nav.Link href="/#experience">経験</Nav.Link>
+                        <Nav.Link href="/#works">作品</Nav.Link>
+                        <Nav.Link href="/#contact">コンタクト</Nav.Link>
+                        <Nav.Link href="https://github.com/huynhnguyen1906" target="_blank" rel="noopener noreferrer">
                             <GithubWhite />
                         </Nav.Link>
                     </Nav>

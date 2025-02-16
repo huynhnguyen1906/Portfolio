@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function About() {
     return (
-        <div className={Style.AboutContainer}>
+        <div className={Style.AboutContainer} id="about">
             <div className={Style.label}>私について</div>
             <div className={Style.Content}>
                 <div className={Style.ImageBlock}>
@@ -43,7 +43,7 @@ export default function About() {
 
                         <p>
                             もし私にご興味をお持ちいただけましたら、
-                            <Link href={'#'}>こちら</Link> から作品をご覧いただき、
+                            <Link href="/#works">こちら</Link> から作品をご覧いただき、
                             私の考え方やスキルをより深く知っていただけると幸いです。
                         </p>
                     </div>

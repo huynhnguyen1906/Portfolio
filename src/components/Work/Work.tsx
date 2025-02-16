@@ -7,7 +7,7 @@ import BlankLink from '../icons/BlankLink';
 
 export default function Work() {
     return (
-        <div className={Style.WorkContainer}>
+        <div className={Style.WorkContainer} id="works">
             <div className={Style.label}>
                 <p className={Style.title}>作品</p>
                 <p>これまでに手がけた一部の作品</p>
@@ -42,17 +42,21 @@ export default function Work() {
                             </div>
                         </div>
                         <div className={Style.action}>
-                            <Link href="#">
+                            <Link href="https://tabinavi.nguyenduchuynh.com/" target="_blank" rel="noopener noreferrer">
                                 <EarthWhite />
                                 サイトを見る
                             </Link>
-                            <Link href="#">
+                            <Link
+                                href="https://github.com/2024-H-team/Tabinavi"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 <GithubWhite />
                                 ソースコードこちら
                             </Link>
                         </div>
                         <div className={Style.viewMoreBtn}>
-                            <Link href="#">
+                            <Link href="/works/1">
                                 作品詳細を見る
                                 <BlankLink />
                             </Link>
@@ -85,17 +89,21 @@ export default function Work() {
                             </div>
                         </div>
                         <div className={Style.action}>
-                            <Link href="#">
+                            <Link href="https://reki-teku.com/" target="_blank" rel="noopener noreferrer">
                                 <EarthWhite />
                                 サイトを見る
                             </Link>
-                            <Link href="#">
+                            <Link
+                                href="https://github.com/huynhnguyen1906/Reki-Teku"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 <GithubWhite />
                                 ソースコードこちら
                             </Link>
                         </div>
                         <div className={Style.viewMoreBtn}>
-                            <Link href="#">
+                            <Link href="/works/2">
                                 作品詳細を見る
                                 <BlankLink />
                             </Link>
@@ -127,17 +135,21 @@ export default function Work() {
                             </div>
                         </div>
                         <div className={Style.action}>
-                            <Link href="#">
+                            <Link href="https://funhub.nguyenduchuynh.com/" target="_blank" rel="noopener noreferrer">
                                 <EarthWhite />
                                 サイトを見る
                             </Link>
-                            <Link href="#">
+                            <Link
+                                href="https://github.com/huynhnguyen1906/FunHub"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 <GithubWhite />
                                 ソースコードこちら
                             </Link>
                         </div>
                         <div className={Style.viewMoreBtn}>
-                            <Link href="#">
+                            <Link href="/works/3">
                                 作品詳細を見る
                                 <BlankLink />
                             </Link>

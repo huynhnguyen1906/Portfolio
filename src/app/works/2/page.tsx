@@ -35,11 +35,15 @@ export default function WorkDetailPage() {
                                 </div>
                             </div>
                             <div className={Style.action}>
-                                <Link href="#">
+                                <Link href="https://reki-teku.com/" target="_blank" rel="noopener noreferrer">
                                     <EarthWhite />
                                     サイトを見る
                                 </Link>
-                                <Link href="#">
+                                <Link
+                                    href="https://github.com/huynhnguyen1906/Reki-Teku"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
                                     <GithubWhite />
                                     ソースコードこちら
                                 </Link>

@@ -38,11 +38,19 @@ export default function WorkDetailPage() {
                                 </div>
                             </div>
                             <div className={Style.action}>
-                                <Link href="#">
+                                <Link
+                                    href="https://tabinavi.nguyenduchuynh.com/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
                                     <EarthWhite />
                                     サイトを見る
                                 </Link>
-                                <Link href="#">
+                                <Link
+                                    href="https://github.com/2024-H-team/Tabinavi"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
                                     <GithubWhite />
                                     ソースコードこちら
                                 </Link>
@@ -121,7 +129,9 @@ export default function WorkDetailPage() {
                                 </p>
                                 <p>
                                     そこで、独自に乗り換え機能を開発することに挑戦。アルゴリズムの調査やロジック設計を行い、駅データを提供する
-                                    <Link href="https://ekidata.jp/">「ekidata」</Link>
+                                    <Link href="https://ekidata.jp/" target="_blank" rel="noopener noreferrer">
+                                        「ekidata」
+                                    </Link>
                                     から全国の駅情報を取得して、乗り換え検索を実現しました。まだ運賃や所要時間など、正確さを高める部分は残っているものの、大量データを扱ったのは今回が初めてで、応答速度や70％ほどの精度（既存サービス比）を得られたのは大きな成果です。
                                 </p>
                                 <p>
