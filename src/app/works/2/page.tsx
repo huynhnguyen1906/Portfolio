@@ -115,7 +115,7 @@ export default function WorkDetailPage() {
                     </div>
                     <div className={Style.applyPoint}>
                         <div className={Style.textBlock}>
-                            <div className={Style.title}>おコードもデザインも、チーム全員で作り上げる</div>
+                            <div className={Style.title}>コードもデザインも、チーム全員で作り上げる</div>
                             <div className={Style.description}>
                                 <p>
                                     今回のプロジェクトでは、「コードもデザインもメンバー全員の意見を取り入れる」という方針で取り組みました。次のステップに進む際は、自分の専門外の領域であっても、チーム全員で集まってデザインとコードの共通プロセスを話し合い、合意形成を行っています。また、授業以外の時間にもミーティングを行い、一緒に作業する時間を増やして進捗を確保しました。
