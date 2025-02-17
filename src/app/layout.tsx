@@ -17,7 +17,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
                 'こんにちは、グエン ドゥック フィン（Nguyễn Đức Huỳnh）と申します。ECCコンピュータ専門学校の2年次を修了しました。コンピューターに興味があり、特にWeb開発に関心を持っています。将来はフルスタックエンジニアとして活躍したいと考えています。',
             images: [
                 {
-                    url: 'https://raw.githubusercontent.com/huynhnguyen1906/Portfolio/refs/heads/main/public/images/HeroImage.webp',
+                    url: 'https://raw.githubusercontent.com/huynhnguyen1906/Portfolio/refs/heads/main/public/images/og-image.webp',
                     width: 50,
                     height: 50,
                     alt: 'こんにちは、グエン ドゥック フィン（Nguyễn Đức Huỳnh）と申します。ECCコンピュータ専門学校の2年次を修了しました。コンピューターに興味があり、特にWeb開発に関心を持っています。将来はフルスタックエンジニアとして活躍したいと考えています。',
@@ -33,7 +33,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
             title: 'HUYNHs Portfolio',
             description:
                 'こんにちは、グエン ドゥック フィン（Nguyễn Đức Huỳnh）と申します。ECCコンピュータ専門学校の2年次を修了しました。コンピューターに興味があり、特にWeb開発に関心を持っています。将来はフルスタックエンジニアとして活躍したいと考えています。',
-            images: 'https://raw.githubusercontent.com/huynhnguyen1906/Portfolio/refs/heads/main/public/images/HeroImage.webp',
+            images: 'https://raw.githubusercontent.com/huynhnguyen1906/Portfolio/refs/heads/main/public/images/og-image.webp',
         },
         appleWebApp: {
             capable: true,
