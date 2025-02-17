@@ -18,8 +18,8 @@ export const generateMetadata = async (): Promise<Metadata> => {
             images: [
                 {
                     url: 'https://raw.githubusercontent.com/huynhnguyen1906/Portfolio/refs/heads/main/public/images/HeroImage.webp',
-                    width: 300,
-                    height: 300,
+                    width: 150,
+                    height: 150,
                     alt: 'こんにちは、グエン ドゥック フィン（Nguyễn Đức Huỳnh）と申します。ECCコンピュータ専門学校の2年次を修了しました。コンピューターに興味があり、特にWeb開発に関心を持っています。将来はフルスタックエンジニアとして活躍したいと考えています。',
                 },
             ],
