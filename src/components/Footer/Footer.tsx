@@ -7,7 +7,7 @@ export default function Footer() {
             style={{ borderColor: '#374151 !important' }}
         >
             <p className="text-center">
-                © 2025 | Create by
+                © 2025 | Create by &nbsp;
                 <Link
                     href={'https://github.com/huynhnguyen1906'}
                     className="text-decoration-underline"
