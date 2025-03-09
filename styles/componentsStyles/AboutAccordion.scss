@@ -1,0 +1,45 @@
+@import '../variables';
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.accordion-item {
+    border-radius: 8px !important;
+    border: unset;
+    overflow: hidden;
+    background-color: unset !important;
+}
+.accordion-header {
+    border-radius: unset;
+    border: unset;
+    background-color: $Bg-dark-100 !important;
+    button {
+        font-size: 16px;
+        padding: 8px 16px;
+        border: unset !important;
+        background-color: unset !important;
+        color: $Text-900 !important;
+        box-shadow: unset !important;
+        &::after {
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23f9fafb" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>') !important;
+        }
+        &.collapsed {
+            border: unset;
+            background-color: unset !important;
+            &::after {
+                background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23f9fafb" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>') !important;
+            }
+        }
+    }
+}
+.accordion-collapse {
+    border: unset !important;
+    background-color: $Bg-dark-200 !important;
+}
+.accordion-body {
+    padding: 8px 16px;
+    border: unset !important;
+    color: $Text-600 !important;
+}

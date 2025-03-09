@@ -1,6 +1,10 @@
+'use client';
+
 import Style from '@styles/componentsStyles/About.module.scss';
 import Image from 'next/image';
 import Link from 'next/link';
+import Accordion from 'react-bootstrap/Accordion';
+import '@styles/componentsStyles/AboutAccordion.scss';
 
 export default function About() {
     return (
@@ -15,32 +19,36 @@ export default function About() {
                 </div>
                 <div className={Style.TextInfo}>
                     <div className={Style.Text}>
-                        <h1>ちょっとした私のこと</h1>
-                        <p>
-                            グエン ドゥック フィン（Nguyễn Đức
-                            Huỳnh）と申します。ベトナム出身で、ECCコンピュータ専門学校の2年次を修了し、2026年3月に卒業見込みです。将来はフルスタックエンジニアとして活躍したいと考えています。
-                        </p>
-                        <p>
-                            学校のチームプロジェクトでは、メンバーの行動や興味、将来の目標などを観察・分析し、
-                            チーム全体の状況を常に把握するよう意識しています。
-                            メンバーの一員としては、得た情報を活用して柔軟に動き、
-                            リーダーを任された際には、一人ひとりに合ったタスクを割り振るよう心がけています。
-                        </p>
-
-                        <p>
-                            将来、企業での仕事にスムーズに馴染むため、
-                            学生のうちからできる限り実際の職場環境を再現することを目標に、
-                            「報・連・相」の徹底や感謝・謝罪の言葉の大切さを常に意識しています。
-                            リードエンジニアを担当する際には、コードの方針やプロジェクト構成、
-                            PR・コードレビューの進め方などを明確化し、チーム全体と共有できるように取り組んでいます。
-                        </p>
-
-                        <p>
-                            現在はバックエンド開発スキルの強化を目指し、
-                            時間があるときにJavaやSpringフレームワークを学習中です。
-                            また、実務経験を積むため、エンジニアとして働けるアルバイトを探しています。
-                        </p>
-
+                        <h1>私のこと Q&A</h1>
+                        <Accordion defaultActiveKey={['0']} alwaysOpen flush>
+                            <Accordion.Item eventKey="0">
+                                <Accordion.Header>自己紹介でどうぞ！</Accordion.Header>
+                                <Accordion.Body>
+                                    グエン ドゥック フィン（Nguyễn Đức
+                                    Huỳnh）と申します。ベトナム出身で、ECCコンピュータ専門学校の2年次を修了し、2026年3月に卒業見込みです。将来はフルスタックエンジニアとして活躍したいと考えています。
+                                </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey="1">
+                                <Accordion.Header>自分がなりたい人間像はなんですか？</Accordion.Header>
+                                <Accordion.Body>
+                                    私は、身体的に強いだけでなく、専門技術 &#40;技&#41;、分析的思考
+                                    &#40;知&#41;、人間関係 &#40;人&#41;、健康 &#40;体&#41;、そして精神面
+                                    &#40;情&#41;など、あらゆる面で「強い」人間になりたいです。また、これらすべての面でさらに強くなるために、与えられたあらゆる機会を逃さず活用しようと考えています。
+                                </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey="2">
+                                <Accordion.Header>自分の信念を教えてください！</Accordion.Header>
+                                <Accordion.Body>
+                                    私の根本的な信念は「すべての人はそれぞれ強い存在である」ということです。私たちがすべきことは、他人と比べて落ち込むのではなく、自分自身の得意分野を見つけ、それを伸ばすことだと考えています。そうすることで、誰もが「自分は強い存在だ」と自信を持てるようになるはずです。
+                                </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey="3">
+                                <Accordion.Header>10年後のビションを教えてください！</Accordion.Header>
+                                <Accordion.Body>
+                                    将来的には、チームリーダーやプロジェクトマネージャーなどの管理職に就くことを目指しています。そのような立場であれば、自分の言葉を通じて周囲の人がより強くなるよう手助けがしやすいと考えています。具体的には、一人ひとりの視点に立って状況を分析し、それぞれの長所や弱点を見極めて、持っている力を最大限に引き出せるようサポートしていきたいです。
+                                </Accordion.Body>
+                            </Accordion.Item>
+                        </Accordion>
                         <p>
                             もし私にご興味をお持ちいただけましたら、
                             <Link href="/#works">こちら</Link> から作品をご覧いただき、
