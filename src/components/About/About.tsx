@@ -43,7 +43,9 @@ export default function About() {
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="3">
-                                <Accordion.Header>10年後のビションを教えてください！</Accordion.Header>
+                                <Accordion.Header>
+                                    10年後の10年後のビジョンを教えてください！を教えてください！
+                                </Accordion.Header>
                                 <Accordion.Body>
                                     将来的には、チームリーダーやプロジェクトマネージャーなどの管理職に就くことを目指しています。そのような立場であれば、自分の言葉を通じて周囲の人がより強くなるよう手助けがしやすいと考えています。具体的には、一人ひとりの視点に立って状況を分析し、それぞれの長所や弱点を見極めて、持っている力を最大限に引き出せるようサポートしていきたいです。
                                 </Accordion.Body>
