@@ -35,7 +35,11 @@ export default function WorkDetailPage() {
                                 </div>
                             </div>
                             <div className={Style.action}>
-                                <Link href="https://reki-teku.com/" target="_blank" rel="noopener noreferrer">
+                                <Link
+                                    href="https://reki-teku-sooty.vercel.app/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
                                     <EarthWhite />
                                     サイトを見る
                                 </Link>
