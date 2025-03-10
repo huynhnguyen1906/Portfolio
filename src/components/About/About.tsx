@@ -22,7 +22,7 @@ export default function About() {
                         <h1>私のこと Q&A</h1>
                         <Accordion defaultActiveKey={['0']} alwaysOpen flush>
                             <Accordion.Item eventKey="0">
-                                <Accordion.Header>自己紹介でどうぞ！</Accordion.Header>
+                                <Accordion.Header>簡単な自己紹介をどうぞ！</Accordion.Header>
                                 <Accordion.Body>
                                     グエン ドゥック フィン（Nguyễn Đức
                                     Huỳnh）と申します。ベトナム出身で、ECCコンピュータ専門学校の2年次を修了し、2026年3月に卒業見込みです。将来はフルスタックエンジニアとして活躍したいと考えています。
