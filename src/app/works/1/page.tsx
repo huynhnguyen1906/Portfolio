@@ -167,6 +167,98 @@ export default function WorkDetailPage() {
                             </div>
                         </div>
                     </div>
+                    <div className={Style.applyPointBlock}>
+                        <div className={Style.applyPoint}>
+                            <div className={Style.textBlock}>
+                                <div className={Style.title}>
+                                    2.2
+                                    全学年のチーム制作なので、技術的に差がある企画・デザイン・開発を同時並行で進める挑戦
+                                </div>
+                                <div className={Style.description}>
+                                    <p>
+                                        今回のプロジェクトの目的は HTML5 Awardへのエントリー
+                                        であり、制作期間が短かったため、通常とは異なり
+                                        企画のブラッシュアップ・コーディング・デザインを同時並行で進める
+                                        必要がありました。
+                                    </p>
+                                    <p>
+                                        プロジェクト全体の進捗管理を担当する立場として、私はまず
+                                        各フェーズ（企画・デザイン・機能開発）ごとに短期目標を設定
+                                        しました。その上で、各メンバーのスキルに応じて、タスクを 細分化・具体化
+                                        し、適切に振り分けることで、効率的に進行できるよう調整しました。
+                                    </p>
+                                </div>
+                            </div>
+                            <div className={Style.imageBlock}>
+                                <div className={Style.image}>
+                                    <Image src={'/images/tabinavi/8.webp'} alt="aaa" width={1000} height={1000} />
+                                </div>
+                                <p className={Style.imageDes}>
+                                    タスクを細分化し、期限を短く設定することで、メンバーが先延ばしにしたり、締切直前になって慌てて作業するのを防ぐことがでました。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={Style.applyPointBlock}>
+                        <h2>3. 気づき・学び・反省点</h2>
+                        <div className={Style.applyPoint}>
+                            <div className={Style.textBlock}>
+                                <div className={Style.title}>
+                                    3.1 チームのタスクと他の授業課題のバランス調整は難しい
+                                </div>
+                                <div className={Style.description}>
+                                    <p>
+                                        プロジェクトを進める中で、メンバーの授業課題の進捗状況にも気を配り、負担をかけすぎないようにタスクの量を調整していました。しかし、その結果としてチームの進捗が遅れることもありました。
+                                    </p>
+                                    <p>
+                                        例えば、冬休み期間中は学年の後半ということもあり、メンバーが他の課題に集中できるようにタスクの量を減らしました。しかし、その影響でコミュニケーションが不足し、一部のメンバーがタスクの進め方を誤る「ミス」が発生してしまいました。
+                                    </p>
+
+                                    <p>
+                                        このバランスを取ることの難しさを今回のプロジェクトで強く実感しました。プロジェクトの進捗を維持しながら、メンバーの負担を軽減することの両立が、想像以上に困難であることを改めて学びました。
+                                    </p>
+                                </div>
+                            </div>
+                            <div className={Style.imageBlock}>
+                                <div className={Style.image}>
+                                    <Image src={'/images/tabinavi/6.webp'} alt="aaa" width={1000} height={1000} />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={Style.applyPointBlock}>
+                        <div className={Style.applyPoint}>
+                            <div className={Style.textBlock}>
+                                <div className={Style.title}>
+                                    3.2 Express.js ではなく、Java Spring Boot でバックエンドを実装したかった
+                                </div>
+                                <div className={Style.description}>
+                                    <p>
+                                        プロジェクト開始前に、Java Spring
+                                        Bootを学習し、バックエンド開発のスキルを広げる計画
+                                        を立てていました。学習スケジュールも準備し、実際にプロジェクトで活用するつもりでした。
+                                    </p>
+                                    <p>
+                                        しかし、今回は デザインとコーディングを並行して進める
+                                        という開発スタイルを採用したため、Spring
+                                        Bootを使用する機会を得ることができませんでした。
+                                    </p>
+
+                                    <p>次回のプロジェクトでは、必ずJava Spring Bootでバックエンドを実装します。</p>
+                                </div>
+                            </div>
+                            <div className={Style.imageBlock}>
+                                <div className={Style.image}>
+                                    <Image
+                                        src={'/images/tabinavi/9.webp'}
+                                        alt="java-spring-boot"
+                                        width={1000}
+                                        height={1000}
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </main>
             <Footer />
