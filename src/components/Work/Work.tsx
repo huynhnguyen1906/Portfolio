@@ -135,7 +135,11 @@ export default function Work() {
                             </div>
                         </div>
                         <div className={Style.action}>
-                            <Link href="https://funhub.nguyenduchuynh.com/" target="_blank" rel="noopener noreferrer">
+                            <Link
+                                href="https://funhub.nguyenduchuynh.com/home"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
                                 <EarthWhite />
                                 サイトを見る
                             </Link>
