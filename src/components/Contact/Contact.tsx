@@ -19,7 +19,7 @@ export default function Contact() {
                 <div className={Style.phoneNumber}>
                     <Phone />
                     <p>090-8380-5537</p>
-                    <CopyButton text="090-8380-5537" />
+                    <CopyButton text="09083805537" />
                 </div>
             </div>
         </div>
