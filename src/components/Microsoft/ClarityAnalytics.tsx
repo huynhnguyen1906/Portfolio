@@ -5,9 +5,9 @@ import clarity from '@microsoft/clarity';
 
 export default function ClarityAnalytics() {
     useEffect(() => {
-        // Khởi tạo Microsoft Clarity với project ID của bạn
+        // Initialize Clarity
         clarity.init('r8wl5lq9xo');
     }, []);
 
-    return null; // Component này không hiển thị gì cả
+    return null; // No need to render anything
 }
