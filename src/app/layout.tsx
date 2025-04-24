@@ -1,5 +1,6 @@
 import { Inter } from 'next/font/google';
 import '@styles/GlobalStyles.scss';
+import ClarityAnalytics from '@/components/Microsoft/ClarityAnalytics';
 
 import { Metadata } from 'next';
 
@@ -56,7 +57,10 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={inter.className}>{children}</body>
+            <body className={inter.className}>
+                {children}
+                <ClarityAnalytics />
+            </body>
         </html>
     );
 }
