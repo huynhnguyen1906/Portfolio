@@ -34,6 +34,31 @@ export default function Experience() {
                 </div>
                 <div className={Style.experienceItem}>
                     <div className={Style.workPlace}>
+                        <p>YTDoors株式会社</p>
+                    </div>
+                    <div className={Style.detail}>
+                        <p className={Style.position}>Headless構成のCMS全面改修（フルスタック担当）</p>
+                        <ul>
+                            <li>
+                                WordPress APIをバックエンドとし、Next.jsでフロントエンドを構築したHeadless
+                                CMSサイトのリニューアル案件。
+                            </li>
+                            <li>原則リモート</li>
+                            <li>
+                                フロントエンドの構成設計については、基本的に私が一任されており、担当技術者の確認を受けながら実装を進めました。
+                            </li>
+                            <li>
+                                開発だけでなく、サイト全体の改善方針や設計見直しにも積極的に意見を出し、方針決定にも関与しました。
+                            </li>
+                            <li>WordPress側のカスタム投稿やAPI設計も自ら行い、フルスタックの立場で対応しました。</li>
+                        </ul>
+                    </div>
+                    <div className={Style.time}>
+                        <p>2025年4月～現在</p>
+                    </div>
+                </div>
+                <div className={Style.experienceItem}>
+                    <div className={Style.workPlace}>
                         <p>ECCコンピュータ専門学校</p>
                     </div>
                     <div className={Style.detail}>
